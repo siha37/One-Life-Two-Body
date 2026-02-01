@@ -1,5 +1,9 @@
 # ONE LIFE TWO BODY 프로젝트
 
+<p align="center">
+  <img src="Assets/MyFolder/3.Resources/UI/MainTitle/titlelogo.png" alt="Project Logo" width="400">
+</p>
+
 유니티 기반의 탑다운 뱀서류 게임 프로젝트입니다. 
 한명은 이동을
 다른 한명은 공격을 담당하며 플레이 합니다.
@@ -39,7 +43,8 @@
 - 객체 관리: 생성된 적들은 `EnemyCollection` 하위에서 관리되며, 다음 스폰 단계로 넘어갈 때 이전 적들을 별도로 분리하여 최적화합니다.
 
 ## 기술 스택
-- Engine: Unity
+- Engine: Unity 2022.3.62f2
+![Unity Version](https://img.shields.io/badge/Unity-2022.3.62f2-black?style=flat&logo=unity)
 - Language: C#
 - Animation: Spine
 - Data Format: CSV, JSON (Newtonsoft.Json)
