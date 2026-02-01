@@ -1,0 +1,5 @@
+Level,Name,Shot_Type,Resource_TYPE,Resource_Amount,Damage,Speed,Shot_Delay,Charging_Delay,Charging_Count,Destroy_Time,Penetrate_Count,UP_Damage,UP_Speed,UP_Size,NextLevel_Ex
+1,Sniperrrrrrr BANG,1,2,15,10,69,2,1,4,3,2,2,2,2,"충전형 관통무기,차징시 관통증가,강화시 범위,공격력 증가"
+2,,0,0,15,10,69,1,1,4,3,2,2,2,2,장전시간 감소
+3,,0,0,15,10,69,1,0.5,4,3,2,2,2,2,차징시간 감소
+4,,0,0,7,10,69,1,0.5,4,3,2,2,2,10,"공격력 증가,차징시 범위 증가"

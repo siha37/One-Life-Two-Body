@@ -1,0 +1,5 @@
+Level,Name,Shot_Type,Resource_TYPE,Resource_Amount,Damage,Able_Time,Shot_Delay,NextLevel_Ex
+1,Shild_Buff,3,1,4,2,100,4,none
+2,,0,0,4,2,100,4,none
+3,,0,0,4,2,100,4,none
+4,,0,0,4,2,100,4,none

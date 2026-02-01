@@ -1,0 +1,3 @@
+Num,Hp,Speed,Damage,Lv_Hp,Lv_Damage,Exp_Amount,Pattern_1_Damage,Pattern_1_CoolTime,Pattern_1_Delay,Pattern_2_Damage,Pattern_2_CoolTime,Pattern_2_Delay,Rush_Speed,Missile_Amount,Missile_Size,Missile_Radius,Lazzer_Size
+0,100,150,20,0,0,100,20,4,0.5,0,5,2,20,0,0,0,0
+1,100,150,20,0,0,100,10,4,1,30,8,1.5,0,10,1,10,1

@@ -1,0 +1,5 @@
+Level,Name,Shot_Type,Resource_TYPE,Resource_Amount,Damage,Speed,Shot_MaxTime,Shot_Delay,UP_Damage,UP_Size,NextLevel_Ex
+1,Ego Sowrd,2,2,0.7,2,10,100,3,0.5,2,조종형 관통무기.강화시 공격력 감소 범위 증가
+2,,0,0,0.7,2,20,100,3,0.5,2,속도 증가
+3,,0,0,0.3,2,20,100,3,0.5,2,자원소모 감소
+4,,0,0,0.3,4,20,100,3,0.5,4,"공격력 증가,강화시 범위 증가"

@@ -1,0 +1,5 @@
+Level,Name,Shot_Type,Resource_TYPE,Resource_Amount,Damage,MaxDistance,Shot_MaxTime,Shot_Delay,Line_Widht,UP_Damage,UP_Distance,NextLevel_Ex
+1,Lazzer,2,2,0.25,1,5,2,1,1,0,2,"관통형 근접무기, 강화시 사거리 증가"
+2,Lazzer,2,2,0.25,2,5,2,1,2,0,2,공격력 증가
+3,Lazzer,2,2,0.14,2,7,2,1,2,0,2,"소모자원 감소,길이 증가"
+4,Lazzer,2,2,0.14,2,7,100,0,2,0,2,무제한 지속

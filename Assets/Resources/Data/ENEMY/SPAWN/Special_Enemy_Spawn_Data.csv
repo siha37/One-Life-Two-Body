@@ -1,0 +1,4 @@
+Number,M,S,SpawnType,Direction,EnemyType,EnemyCount,HP,Speed,Size,Damage,Exp_Amount
+0,2,30,0,0,6,1,0,0,0,0,80
+1,5,30,0,0,7,1,0,0,0,0,100
+2,9,30,0,0,8,1,0,0,0,0,150

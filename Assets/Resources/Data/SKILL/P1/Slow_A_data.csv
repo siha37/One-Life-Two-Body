@@ -1,0 +1,5 @@
+Level,Name,Shot_Type,Resource_TYPE,Resource_Amount,Damage,Shot_MaxTime,Shot_Delay,Radius,NextLevel_Ex
+1,Slow Area,3,1,30,50,6,20,5,주위적 이동속도 감소
+2,,0,0,30,50,12,20,5,지속시간 증가
+3,,0,0,30,50,12,20,10,범위 증가
+4,,0,0,30,100,12,20,10,적 이동 불가

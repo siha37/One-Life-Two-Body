@@ -1,0 +1,5 @@
+Level,Name,Shot_Type,Resource_TYPE,Resource_Amount,Damage,Speed,Angle,Shot_Delay,Destory_Time,Projectile_Amount,UP_Damage,UP_Speed,UP_ProjectileAmount,UP_Size,UP_Penetrate_Count,NextLevel_Ex
+1,ShotGun,0,2,30,1,10,10,2,1,10,0,2,2,2,0,"산탄형 무기 ,강화시 산탄수 증가"
+2,,0,0,30,1,10,20,2,1,10,0,0,0,0,0,산탄범위 감소
+3,,0,0,30,1,10,20,2,1,20,0,0,0,0,0,산탄수 증가
+4,,0,0,30,1,10,20,1,1,20,0,0,0,0,0,장전시간 감소

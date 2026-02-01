@@ -1,0 +1,5 @@
+Level,Name,Shot_Type,Resource_TYPE,Resource_Amount,Damage,Speed,Shot_Delay,Destroy_Time,Projectile_Amount,NextLevel_Ex
+1,Guided_M,3,1,30,10,10,3,0.8,8,주위적을 밀어내는 미사일 발사
+2,,3,1,7,10,10,1.5,0.8,8,"쿨타임,소모량 감소"
+3,,3,1,7,20,20,1.5,10,8,"사거리,속도,파워 증가"
+4,,3,1,7,20,20,1.5,10,16,미사일 증가

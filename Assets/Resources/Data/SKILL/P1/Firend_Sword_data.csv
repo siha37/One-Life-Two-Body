@@ -1,0 +1,5 @@
+Level,Name,Shot_Type,Resource_TYPE,Resource_Amount,Damage,Shot_MaxTime,Shot_Delay,KnockBack_Power,Segment_Count,NextLevel_Ex
+1,Firend Sword,3,1,30,1,7,20,20,15,"P2 무적,충돌시 공격"
+2,,0,0,30,2,7,20,20,15,충돌공격력 증가
+3,,0,0,30,2,7,20,20,30,사거리 증가
+4,,0,0,30,2,14,20,20,30,지속시간 증가

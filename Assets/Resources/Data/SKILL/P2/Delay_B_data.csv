@@ -1,0 +1,5 @@
+Level,Name,Shot_Type,Resource_TYPE,Resource_Amount,Damage,Speed,Radius,Shot_Delay,Charging_Delay,Charging_Count,Destroy_Time,Projectile_Amount,KnockBack_Power,UP_Damage,UP_ProjectileAmount,UP_Size,NextLevel_Ex
+1,BOOM,1,2,30,2,1,2,1,0.5,1,2,1,30,0,0,1.5,"차징형 폭발무기,차징시 추가발사,강화시 범위 증가"
+2,,1,2,30,2,1,2,1,0.25,1,2,1,30,0,0,1.5,차징시간 감소
+3,,1,2,30,2,1,3,1,0.25,1,2,1,30,0,0,1.5,범위 증가
+4,,1,2,30,2,30,3,1,0.25,1,0,1,30,0,0,1.5,"즉시 폭발,사거리 증가"

@@ -1,0 +1,5 @@
+Level,Name,Shot_Type,Resource_TYPE,Resource_Amount,Damage,Speed,Shot_Delay,Destory_Time,Projectile_Amount,UP_Damage,UP_Speed,UP_ProjectileAmount,UP_Size,NextLevel_Ex
+1,TudadadadaTuda,2,2,0.6,1,10,0,0.5,10,0,2,2,2,"연사형 무기,강화시 연사 증가"
+2,,0,0,0.6,1,10,0,1,10,0,2,2,2,사거리 증가
+3,,0,0,0.3,1,10,0,1,10,0,2,2,2,자원소모 감소
+4,,0,0,0.3,1,10,0,1,20,0,2,2,2,오라오라오라오라오라오라

@@ -1,0 +1,5 @@
+Level,Name,Shot_Type,Resource_TYPE,Resource_Amount,Damage,Speed,Shot_Delay,Charging_Delay,Charging_Count,Destroy_Time,Projectile_Amount,UP_Damage,UP_Speed,NextLevel_Ex
+1,Basic_P_data,1,2,10,2,15,1,0.5,6,4,1,2,2,"충전형 권총 차징시 탄증가, 강화시 공격력 증가"
+2,,1,2,10,4,15,1,0.5,6,4,1,2,2,공격력 증가
+3,,1,2,10,4,15,1,0.5,9,4,1,2,2,최대차징 증가
+4,,1,2,10,4,15,1,0.25,9,4,1,2,2,차징시간 감소

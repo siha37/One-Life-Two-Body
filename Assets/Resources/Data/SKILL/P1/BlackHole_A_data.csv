@@ -1,0 +1,5 @@
+Level,Name,Shot_Type,Resource_TYPE,Resource_Amount,Damage,Shot_MaxTime,Shot_Delay,Radius,Projectile_Amount,NextLevel_Ex
+1,BLACK HOLE,3,1,30,10,3,20,1,2,블랙홀 소환
+2,,0,0,30,10,6,20,1,2,지속시간 증가
+3,,0,0,30,10,6,20,1,4,개수 증가
+4,,0,0,30,10,6,20,5,1,블랙홀 통합 범위 증가
