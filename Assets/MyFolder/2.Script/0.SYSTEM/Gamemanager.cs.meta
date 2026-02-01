@@ -1,0 +1,20 @@
+fileFormatVersion: 2
+guid: 859e189f63d2c444faf0b58009533ecd
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - CinemachinCam: {instanceID: 0}
+  - MainVolume: {instanceID: 0}
+  - Player: {instanceID: 0}
+  - P2: {instanceID: 0}
+  - EXPS: {instanceID: 0}
+  - BulletCollection: {instanceID: 0}
+  - EnemyDamageUI_Collection: {instanceID: 0}
+  - Enemy_database: {instanceID: 0}
+  - audioMixer: {fileID: 24100000, guid: 447dea03376264e42a611a8e5ea793ab, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
