@@ -1,0 +1,1205 @@
+{
+"skeleton": { "hash": "cscGctjyIBI", "spine": "4.1.08", "x": -974.32, "y": 68.24, "width": 1263.68, "height": 957.03 },
+"bones": [
+	{ "name": "root" },
+	{ "name": "Core", "parent": "root", "x": -23.91, "y": 501.55 },
+	{ "name": "Pelvis", "parent": "Core", "length": 129.67, "rotation": 83.36, "x": -4.77, "y": 19.08 },
+	{ "name": "Chest", "parent": "Pelvis", "length": 112.59, "rotation": -2.77, "x": 129.67 },
+	{ "name": "Head", "parent": "Chest", "length": 187.32, "rotation": 14, "x": 112.59 },
+	{ "name": "Core2", "parent": "Core", "x": -4.69, "y": 487.24 },
+	{ "name": "L_H_wing", "parent": "Core2", "length": 402.36, "rotation": -111.22, "x": -130.21, "y": 3.62 },
+	{ "name": "R_H_wing", "parent": "Core2", "length": 408.74, "rotation": -59.62, "x": 117.73, "y": 25.63 },
+	{ "name": "L_Arm_Ctrl", "parent": "Chest", "x": 99.77, "y": -47.71 },
+	{ "name": "L_Up_Arm", "parent": "L_Arm_Ctrl", "length": 107.98, "rotation": -152.96 },
+	{ "name": "L_Down_Arm", "parent": "L_Up_Arm", "length": 139.91, "rotation": 24.6, "x": 107.98 },
+	{ "name": "R_Arm_Ctrl", "parent": "Core", "rotation": 83.45, "x": -32.76, "y": 236.7 },
+	{ "name": "R_Up_Arm", "parent": "R_Arm_Ctrl", "length": 99.99, "rotation": 170.72 },
+	{ "name": "R_Down_Arm", "parent": "R_Up_Arm", "length": 161.11, "rotation": -17.63, "x": 99.99 },
+	{ "name": "R_Hand_Up_parts", "parent": "R_Down_Arm", "length": 137.29, "rotation": -2.04, "x": 8.63, "y": -23.26 },
+	{ "name": "R_Hand_Down_parts", "parent": "R_Down_Arm", "length": 131.43, "rotation": 0.81, "x": 18.41, "y": 15.22 },
+	{ "name": "body_IK", "parent": "Core", "length": 46.11, "rotation": 154.68, "x": -10.51, "y": 7.18 },
+	{ "name": "L_leg_up", "parent": "Core", "length": 205.28, "rotation": -87.62, "x": 44.95, "y": -3.78 },
+	{ "name": "bone17", "parent": "L_leg_up", "length": 219.82, "rotation": 1.01, "x": 205.28 },
+	{ "name": "R_leg_up", "parent": "Core", "length": 205.88, "rotation": -85.01, "x": -52.68, "y": -6.47 },
+	{ "name": "bone19", "parent": "R_leg_up", "length": 215.73, "rotation": 8.21, "x": 205.88 },
+	{ "name": "Wing_Ctrl", "parent": "root", "x": -23.3, "y": 473.9 },
+	{ "name": "bone21", "parent": "Wing_Ctrl", "length": 336.76, "rotation": -83.37, "x": 94.49, "y": 55.73 },
+	{ "name": "bone22", "parent": "Wing_Ctrl", "length": 285.26, "rotation": -72.32, "x": 155.33, "y": 74.93 },
+	{ "name": "bone23", "parent": "Wing_Ctrl", "length": 343.86, "rotation": -94.34, "x": -98.97, "y": 52.83 },
+	{ "name": "bone24", "parent": "Wing_Ctrl", "length": 257.5, "rotation": -100.66, "x": -152.61, "y": 64.34 },
+	{ "name": "R_Hand_Up_parts_Shot", "parent": "R_Hand_Up_parts", "length": 181.21, "rotation": 0.8, "x": 135.97, "y": -0.63 },
+	{ "name": "R_Hand_Down_parts_Shot", "parent": "R_Hand_Down_parts", "length": 171.44, "rotation": -1.33, "x": 131.01, "y": 0.83 },
+	{ "name": "Weapon", "parent": "R_Down_Arm", "length": 161.11, "x": 161.11 },
+	{ "name": "shot_arm_IK", "parent": "root", "rotation": -72.79, "x": -242.92, "y": 587.88 },
+	{ "name": "bone12", "parent": "R_H_wing", "length": 963.5, "rotation": -44.41, "x": 405.55, "y": -2.37 },
+	{ "name": "bone27", "parent": "L_H_wing", "length": 965.61, "rotation": 43.64, "x": 399.89, "y": -1.65 },
+	{ "name": "bone", "parent": "root", "x": 14.46, "y": -218.07 },
+	{ "name": "Head_Wing_Ctrl", "parent": "bone", "rotation": 30.72, "x": 9, "y": -57.89 },
+	{ "name": "L_Hand_IK", "parent": "root", "x": 224.7, "y": 578.18 },
+	{ "name": "bone29", "parent": "bone21", "length": 261.76, "rotation": -6.95, "x": 333.81, "y": -1.65 },
+	{ "name": "bone28", "parent": "bone22", "length": 357.71, "rotation": -35.41, "x": 283.25, "y": -1.05 },
+	{ "name": "bone30", "parent": "bone23", "length": 269.91, "rotation": 21.35, "x": 345.21, "y": -4.55 },
+	{ "name": "bone31", "parent": "bone24", "length": 393.76, "rotation": 33.04, "x": 256.22, "y": -1.29 },
+	{ "name": "wc_3", "parent": "bone", "x": -13.11, "y": 44.55 },
+	{ "name": "target2", "parent": "wc_3", "x": -76.04, "y": 97.24 },
+	{ "name": "target3", "parent": "wc_3", "x": 105.29, "y": 110.79 },
+	{ "name": "bone32", "parent": "bone28", "length": 152.03, "rotation": -26.47, "x": 358.77, "y": 0.33 },
+	{ "name": "bone33", "parent": "bone30", "length": 123.57, "rotation": 21.87, "x": 270.22, "y": -1.61 },
+	{ "name": "target4", "parent": "root", "x": 42.53, "y": 73.23 },
+	{ "name": "target5", "parent": "root", "x": -9.41, "y": 79.95 },
+	{ "name": "machinegun_Flame", "parent": "Weapon", "x": 370.19, "y": 0.52 },
+	{ "name": "rifle_Flame", "parent": "Weapon", "x": 248.98, "y": -15.95, "transform": "noScale" },
+	{ "name": "back_cover", "parent": "Chest", "length": 56.49, "rotation": -42.67, "x": 1.42, "y": -10.75 }
+],
+"slots": [
+	{ "name": "왼머리파츠 2", "bone": "R_H_wing", "attachment": "왼머리파츠 2" },
+	{ "name": "오른머리파츠 2", "bone": "L_H_wing", "attachment": "오른머리파츠 2" },
+	{ "name": "오른팔 3", "bone": "R_Up_Arm", "attachment": "오른팔 3" },
+	{ "name": "허리 2", "bone": "Pelvis", "attachment": "허리 2" },
+	{ "name": "오른다리 3", "bone": "R_leg_up", "attachment": "오른다리 3" },
+	{ "name": "왼다리 3", "bone": "L_leg_up", "attachment": "왼다리 3" },
+	{ "name": "오른발 3", "bone": "bone19", "attachment": "오른발 3" },
+	{ "name": "왼발 3", "bone": "bone17", "attachment": "왼발 3" },
+	{ "name": "날개 왼쪽 작은 2", "bone": "bone22", "attachment": "날개 왼쪽 작은 2" },
+	{ "name": "날개 오른쪽 작은 2", "bone": "bone24", "attachment": "날개 오른쪽 작은 2" },
+	{ "name": "날개 왼쪽 큰 2", "bone": "bone21", "attachment": "날개 왼쪽 큰 2" },
+	{ "name": "날개 오른쪽 큰 2", "bone": "bone23", "attachment": "날개 오른쪽 큰 2" },
+	{ "name": "back", "bone": "back_cover", "attachment": "back_cover" },
+	{ "name": "가슴 3", "bone": "Chest", "attachment": "가슴 3" },
+	{ "name": "오른손 아래 2", "bone": "R_Hand_Down_parts", "attachment": "오른손 아래 2" },
+	{ "name": "오른손 위 2", "bone": "R_Hand_Up_parts", "attachment": "오른손 위 2" },
+	{ "name": "아렛파츠", "bone": "R_Hand_Down_parts_Shot", "attachment": "아렛파츠" },
+	{ "name": "기관총 회전1", "bone": "Weapon" },
+	{ "name": "총열", "bone": "Weapon", "attachment": "총열" },
+	{ "name": "윗파츠", "bone": "R_Hand_Up_parts_Shot", "attachment": "윗파츠" },
+	{ "name": "왼팔 3", "bone": "L_Up_Arm", "attachment": "왼팔 3" },
+	{ "name": "왼손 3", "bone": "L_Down_Arm", "attachment": "왼손 3" },
+	{ "name": "머리 2p 표정2 2", "bone": "Head", "attachment": "머리 2p 표정2 2" },
+	{ "name": "Macinegun_Flame_000", "bone": "machinegun_Flame", "attachment": "Macinegun_Flame_000" },
+	{ "name": "Flame", "bone": "rifle_Flame" }
+],
+"ik": [
+	{
+		"name": "body_Ctrl_IK",
+		"order": 3,
+		"bones": [ "body_IK" ],
+		"target": "shot_arm_IK"
+	},
+	{
+		"name": "L_Wing_Ctrl",
+		"order": 1,
+		"bones": [ "L_H_wing", "bone27" ],
+		"target": "Head_Wing_Ctrl"
+	},
+	{
+		"name": "R_Wing_Ctrl",
+		"order": 2,
+		"bones": [ "R_H_wing", "bone12" ],
+		"target": "Head_Wing_Ctrl",
+		"bendPositive": false
+	},
+	{
+		"name": "shot_arm_IK",
+		"bones": [ "R_Up_Arm", "R_Down_Arm" ],
+		"target": "shot_arm_IK",
+		"bendPositive": false
+	},
+	{
+		"name": "target",
+		"order": 4,
+		"bones": [ "L_Up_Arm", "L_Down_Arm" ],
+		"target": "L_Hand_IK"
+	},
+	{
+		"name": "target2",
+		"order": 5,
+		"bones": [ "bone24", "bone31" ],
+		"target": "target2"
+	},
+	{
+		"name": "target3",
+		"order": 7,
+		"bones": [ "bone21", "bone29" ],
+		"target": "target3",
+		"bendPositive": false
+	},
+	{
+		"name": "target4",
+		"order": 11,
+		"bones": [ "L_leg_up", "bone17" ],
+		"target": "target4"
+	},
+	{
+		"name": "target5",
+		"order": 12,
+		"bones": [ "R_leg_up", "bone19" ],
+		"target": "target5"
+	},
+	{
+		"name": "wc",
+		"order": 6,
+		"bones": [ "bone23", "bone30" ],
+		"target": "target2"
+	},
+	{
+		"name": "wc_2",
+		"order": 8,
+		"bones": [ "bone22", "bone28" ],
+		"target": "target3",
+		"bendPositive": false
+	},
+	{
+		"name": "wc_3",
+		"order": 9,
+		"bones": [ "bone32" ],
+		"target": "wc_3"
+	},
+	{
+		"name": "wc_4",
+		"order": 10,
+		"bones": [ "bone33" ],
+		"target": "wc_3"
+	}
+],
+"transform": [
+	{
+		"name": "bone15",
+		"order": 15,
+		"bones": [ "Pelvis" ],
+		"target": "body_IK",
+		"rotation": 13.42,
+		"mixRotate": 0.0322,
+		"mixX": 0,
+		"mixScaleX": 0,
+		"mixShearY": 0
+	},
+	{
+		"name": "L_Arm_Ctrl",
+		"order": 14,
+		"bones": [ "R_Arm_Ctrl" ],
+		"target": "L_Arm_Ctrl",
+		"rotation": 30,
+		"mixRotate": 0.1,
+		"mixX": 0,
+		"mixScaleX": 0,
+		"mixShearY": 0
+	},
+	{
+		"name": "R_Arm_Ctrl",
+		"order": 13,
+		"bones": [ "L_Arm_Ctrl" ],
+		"target": "R_Arm_Ctrl",
+		"rotation": 30,
+		"x": 10,
+		"mixRotate": 0,
+		"mixX": 0,
+		"mixScaleX": 0,
+		"mixShearY": 0
+	}
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"back": {
+				"back_cover": { "x": 6.53, "y": 26.57, "rotation": -28.23, "width": 114, "height": 123 }
+			},
+			"Flame": {
+				"Flame": {
+					"x": 221.02,
+					"y": 2.61,
+					"width": 500,
+					"height": 300,
+					"sequence": { "count": 5, "start": 0 }
+				}
+			},
+			"Macinegun_Flame_000": {
+				"Macinegun_Flame_000": {
+					"x": 109.2,
+					"y": -25.09,
+					"width": 500,
+					"height": 300,
+					"sequence": { "count": 5, "start": 0 }
+				}
+			},
+			"가슴 3": {
+				"가슴 3": { "x": 54.44, "y": 0.66, "rotation": -80.59, "width": 155, "height": 210 }
+			},
+			"기관총 회전1": {
+				"기관총 회전1": { "x": 180.15, "y": -39.39, "rotation": 126.31, "width": 363, "height": 376 },
+				"기관총 회전2": { "x": 171.04, "y": -19.4, "rotation": 126.31, "width": 320, "height": 371 }
+			},
+			"날개 오른쪽 작은 2": {
+				"날개 오른쪽 작은 2": { "x": 145.37, "y": -1.05, "rotation": 89.6, "width": 61, "height": 300 }
+			},
+			"날개 오른쪽 큰 2": {
+				"날개 오른쪽 큰 2": { "x": 177.01, "y": -2.98, "rotation": 87.31, "width": 72, "height": 369 }
+			},
+			"날개 왼쪽 작은 2": {
+				"날개 왼쪽 작은 2": { "x": 146.38, "y": 9.47, "rotation": 89.82, "width": 61, "height": 300 }
+			},
+			"날개 왼쪽 큰 2": {
+				"날개 왼쪽 큰 2": { "x": 172, "y": 12.86, "rotation": 90, "width": 72, "height": 369 }
+			},
+			"머리 2p 표정2 2": {
+				"HEAD_HURT1": { "x": 97.57, "y": 0.35, "rotation": -94.49, "width": 185, "height": 207 },
+				"HEAD_HURT2": { "x": 97.57, "y": 0.35, "rotation": -94.49, "width": 185, "height": 207 },
+				"HEAD_HURT3": { "x": 97.57, "y": 0.35, "rotation": -94.49, "width": 185, "height": 207 },
+				"HEAD_HURT_POINT1": { "x": 97.57, "y": 0.35, "rotation": -94.49, "width": 185, "height": 207 },
+				"HEAD_HURT_POINT2": { "x": 97.57, "y": 0.35, "rotation": -94.49, "width": 185, "height": 207 },
+				"HEAD_HURT_POINT3": { "x": 97.57, "y": 0.35, "rotation": -94.49, "width": 185, "height": 207 },
+				"머리 1P 표정1 2": { "x": 97.57, "y": 0.35, "rotation": -94.59, "width": 185, "height": 207 },
+				"머리 2p 표정2 2": { "x": 97.57, "y": 0.35, "rotation": -94.49, "width": 185, "height": 207 }
+			},
+			"아렛파츠": {
+				"아렛파츠": { "x": 69.73, "y": 8.42, "rotation": 126.84, "width": 135, "height": 136 }
+			},
+			"오른다리 3": {
+				"오른다리 3": { "x": 98.87, "y": -3.98, "rotation": 85.01, "width": 98, "height": 272 }
+			},
+			"오른머리파츠 2": {
+				"오른머리파츠 2": { "x": 196.38, "y": 5.7, "rotation": 114.09, "width": 208, "height": 391 }
+			},
+			"오른발 3": {
+				"오른발 3": { "x": 108.54, "y": -4.68, "rotation": 76.8, "width": 79, "height": 226 }
+			},
+			"오른손 아래 2": {
+				"오른손 아래 2": { "x": 75.06, "y": -19, "rotation": 125.5, "width": 117, "height": 137 }
+			},
+			"오른손 위 2": {
+				"오른손 위 2": { "x": 71.57, "y": 5.81, "rotation": 128.35, "width": 135, "height": 145 }
+			},
+			"오른팔 3": {
+				"오른팔 3": { "x": 65.64, "y": 6.12, "rotation": 108.68, "width": 68, "height": 114 }
+			},
+			"왼다리 3": {
+				"왼다리 3": { "x": 107.04, "y": 10.09, "rotation": 87.62, "width": 81, "height": 264 }
+			},
+			"왼머리파츠 2": {
+				"왼머리파츠 2": { "x": 197.81, "y": -9.07, "rotation": 62.5, "width": 232, "height": 380 }
+			},
+			"왼발 3": {
+				"왼발 3": { "x": 111.82, "y": 3.41, "rotation": 86.61, "width": 61, "height": 226 }
+			},
+			"왼손 3": {
+				"왼손 3": { "x": 70.7, "y": 10.31, "rotation": 47.76, "width": 135, "height": 163 }
+			},
+			"왼팔 3": {
+				"왼팔 3": { "x": 63.83, "y": 0.03, "rotation": 72.37, "width": 68, "height": 114 }
+			},
+			"윗파츠": {
+				"윗파츠": { "x": 63.19, "y": 0.61, "rotation": 127.55, "width": 141, "height": 197 }
+			},
+			"총열": {
+				"총열": { "x": 116.99, "y": -8.01, "rotation": 126.31, "width": 205, "height": 238 }
+			},
+			"허리 2": {
+				"허리 2": { "x": 48.62, "y": -1.63, "rotation": -83.36, "width": 159, "height": 225 }
+			}
+		}
+	}
+],
+"animations": {
+	"aim": {
+		"slots": {
+			"Macinegun_Flame_000": {
+				"attachment": [
+					{}
+				]
+			},
+			"아렛파츠": {
+				"attachment": [
+					{}
+				]
+			},
+			"윗파츠": {
+				"attachment": [
+					{}
+				]
+			},
+			"총열": {
+				"attachment": [
+					{}
+				]
+			}
+		}
+	},
+	"bome_shot": {
+		"slots": {
+			"Macinegun_Flame_000": {
+				"attachment": [
+					{}
+				]
+			},
+			"머리 2p 표정2 2": {
+				"attachment": [
+					{ "name": "머리 1P 표정1 2" }
+				]
+			},
+			"아렛파츠": {
+				"attachment": [
+					{}
+				]
+			},
+			"윗파츠": {
+				"attachment": [
+					{}
+				]
+			},
+			"총열": {
+				"attachment": [
+					{}
+				]
+			}
+		},
+		"bones": {
+			"back_cover": {
+				"rotate": [
+					{
+						"time": 0.3333,
+						"curve": [ 0.422, 0, 0.511, 29.86 ]
+					},
+					{ "time": 0.6, "value": 29.86, "curve": "stepped" },
+					{
+						"time": 0.7,
+						"value": 29.86,
+						"curve": [ 0.8, 29.86, 0.9, 0 ]
+					},
+					{ "time": 1 }
+				],
+				"translate": [
+					{
+						"curve": [ 0.078, 0, 0.156, 2.66, 0.078, 0, 0.156, -23.23 ]
+					},
+					{ "time": 0.2333, "x": 2.66, "y": -23.23, "curve": "stepped" },
+					{
+						"time": 0.3333,
+						"x": 2.66,
+						"y": -23.23,
+						"curve": [ 0.422, 2.66, 0.511, 26.73, 0.422, -23.23, 0.511, -56.44 ]
+					},
+					{ "time": 0.6, "x": 26.73, "y": -56.44, "curve": "stepped" },
+					{
+						"time": 0.7,
+						"x": 26.73,
+						"y": -56.44,
+						"curve": [ 0.8, 26.73, 0.9, 0, 0.8, -56.44, 0.9, 0 ]
+					},
+					{ "time": 1 }
+				]
+			}
+		}
+	},
+	"Charging": {
+		"slots": {
+			"Macinegun_Flame_000": {
+				"attachment": [
+					{}
+				]
+			},
+			"머리 2p 표정2 2": {
+				"attachment": [
+					{ "name": "머리 1P 표정1 2" }
+				]
+			},
+			"아렛파츠": {
+				"attachment": [
+					{}
+				]
+			},
+			"윗파츠": {
+				"attachment": [
+					{}
+				]
+			},
+			"총열": {
+				"attachment": [
+					{}
+				]
+			}
+		},
+		"bones": {
+			"Core": {
+				"translate": [
+					{},
+					{ "time": 0.5, "y": 28.81 }
+				]
+			},
+			"shot_arm_IK": {
+				"translate": [
+					{ "time": 0.1667 },
+					{ "time": 0.5, "y": 60.18 },
+					{ "time": 0.6667, "x": -45.13, "y": 96.53 }
+				]
+			},
+			"L_Hand_IK": {
+				"translate": [
+					{ "time": 0.1667 },
+					{ "time": 0.5, "y": 60.18 },
+					{ "time": 0.6667, "x": 40.12, "y": 102.8 }
+				]
+			},
+			"Chest": {
+				"rotate": [
+					{},
+					{ "time": 0.5, "value": -2.97 },
+					{ "time": 0.6667, "value": -4.92 }
+				]
+			},
+			"Head": {
+				"rotate": [
+					{ "time": 0.4333 },
+					{ "time": 0.6667, "value": -3.42 }
+				]
+			},
+			"Core2": {
+				"translate": [
+					{ "time": 0.3333 },
+					{ "time": 0.6667, "x": 29.95 }
+				]
+			}
+		}
+	},
+	"Charging_shot": {
+		"slots": {
+			"Macinegun_Flame_000": {
+				"attachment": [
+					{}
+				]
+			},
+			"머리 2p 표정2 2": {
+				"attachment": [
+					{ "name": "머리 1P 표정1 2" }
+				]
+			},
+			"아렛파츠": {
+				"attachment": [
+					{}
+				]
+			},
+			"윗파츠": {
+				"attachment": [
+					{}
+				]
+			},
+			"총열": {
+				"attachment": [
+					{}
+				]
+			}
+		},
+		"bones": {
+			"Head": {
+				"rotate": [
+					{ "value": -3.42 }
+				]
+			},
+			"shot_arm_IK": {
+				"translate": [
+					{
+						"x": -45.13,
+						"y": 96.53,
+						"curve": [ 0.111, -45.13, 0.222, -254.8, 0, 189.59, 0.222, 180 ]
+					},
+					{ "time": 0.3333, "x": -254.8, "y": 180 }
+				]
+			},
+			"L_Hand_IK": {
+				"translate": [
+					{
+						"x": 40.12,
+						"y": 102.8,
+						"curve": [ 0.111, 40.12, 0.222, 205.07, 0, 213.95, 0.222, 220.06 ]
+					},
+					{ "time": 0.3333, "x": 205.07, "y": 220.06 }
+				]
+			},
+			"Chest": {
+				"rotate": [
+					{ "value": -4.92 }
+				]
+			},
+			"Core2": {
+				"translate": [
+					{ "x": 29.95 }
+				]
+			}
+		}
+	},
+	"Death": {
+		"slots": {
+			"Macinegun_Flame_000": {
+				"attachment": [
+					{}
+				]
+			},
+			"머리 2p 표정2 2": {
+				"attachment": [
+					{ "name": "HEAD_HURT_POINT3" }
+				]
+			},
+			"아렛파츠": {
+				"attachment": [
+					{}
+				]
+			},
+			"윗파츠": {
+				"attachment": [
+					{}
+				]
+			},
+			"총열": {
+				"attachment": [
+					{}
+				]
+			}
+		},
+		"bones": {
+			"Core": {
+				"rotate": [
+					{},
+					{ "time": 0.1667, "value": 28.98 },
+					{ "time": 0.3333, "value": -27.17 },
+					{ "time": 0.4667, "value": -90.63 },
+					{ "time": 0.5667, "value": -85.25, "curve": "stepped" },
+					{ "time": 0.6, "value": -85.25 },
+					{ "time": 0.6667, "value": -86.75 }
+				],
+				"translate": [
+					{
+						"curve": [ 0, 37.61, 0.103, 338.35, 0, 108.54, 0.104, 167.68 ]
+					},
+					{
+						"time": 0.1667,
+						"x": 410.81,
+						"y": 164.91,
+						"curve": [ 0.22, 471.67, 0.28, 716.85, 0.196, 163.6, 0.309, 121.51 ]
+					},
+					{
+						"time": 0.3333,
+						"x": 812.49,
+						"y": 12.12,
+						"curve": [ 0.437, 998.95, 0.348, 976.37, 0.405, -100.69, 0.45, -348.58 ]
+					},
+					{ "time": 0.4667, "x": 1047.43, "y": -418.6 },
+					{ "time": 0.6, "x": 1124.18, "y": -370.05 },
+					{ "time": 0.6667, "x": 1174.3, "y": -421.74 }
+				]
+			},
+			"Wing_Ctrl": {
+				"translate": [
+					{
+						"curve": [ 0.067, 0, 0.133, -414.5, 0.067, 0, 0.133, 0 ]
+					},
+					{
+						"time": 0.2,
+						"x": -533.69,
+						"y": -43.37,
+						"curve": [ 0.289, -692.6, 0.378, -742.14, 0.289, -101.21, 0.413, -347.43 ]
+					},
+					{
+						"time": 0.4667,
+						"x": -834.29,
+						"y": -497.18,
+						"curve": [ 0.5, -868.84, 0.533, -891.64, 0.487, -462.62, 0.533, -392.46 ]
+					},
+					{
+						"time": 0.5667,
+						"x": -913.8,
+						"y": -392.46,
+						"curve": [ 0.611, -943.35, 0.656, -964.22, 0.611, -392.46, 0.656, -458.4 ]
+					},
+					{ "time": 0.7, "x": -989.43, "y": -491.37 }
+				]
+			},
+			"target4": {
+				"translate": [
+					{},
+					{ "time": 0.4, "x": 451.14, "y": 84.86, "curve": "stepped" },
+					{ "time": 0.4667, "x": 451.14, "y": 84.86 },
+					{ "time": 0.5, "x": 450.07, "y": 19.33 },
+					{ "time": 0.6667, "x": 455.44, "y": -53.71 }
+				]
+			},
+			"target5": {
+				"translate": [
+					{},
+					{ "time": 0.4, "x": 514.52, "y": 165.42 },
+					{ "time": 0.5667, "x": 514.52, "y": -1.07 },
+					{ "time": 0.6, "x": 514.52, "y": 19.33, "curve": "stepped" },
+					{ "time": 0.6667, "x": 514.52, "y": 19.33 },
+					{ "time": 0.7333, "x": 514.52, "y": -42.97 }
+				]
+			},
+			"shot_arm_IK": {
+				"translate": [
+					{ "x": -24.49 },
+					{ "time": 0.5, "x": 534.25, "y": 129.06 },
+					{ "time": 0.8, "x": 994.31, "y": -45.55 },
+					{ "time": 0.9, "x": 1182.58, "y": -302.15, "curve": "stepped" },
+					{ "time": 0.9333, "x": 1182.58, "y": -302.15 },
+					{ "time": 0.9667, "x": 1182.58, "y": -349.22 },
+					{ "time": 1.0667, "x": 1184.1, "y": -323.4 },
+					{ "time": 1.1333, "x": 1182.58, "y": -349.22 }
+				]
+			},
+			"L_Hand_IK": {
+				"translate": [
+					{ "time": 0.4667 },
+					{ "time": 0.8667, "x": 567.5, "y": -299.43 },
+					{ "time": 0.9333, "x": 754.05, "y": -475 },
+					{ "time": 0.9667, "x": 791.67, "y": -591.01 },
+					{ "time": 1.0333, "x": 763.46, "y": -462.46 },
+					{ "time": 1.1, "x": 796.38, "y": -514.2 },
+					{ "time": 1.1333, "x": 846.54, "y": -591.01 }
+				]
+			},
+			"wc_3": {
+				"rotate": [
+					{
+						"time": 0.2333,
+						"curve": [ 0.278, 0, 0.322, 80.43 ]
+					},
+					{ "time": 0.3667, "value": 80.43, "curve": "stepped" },
+					{
+						"time": 0.4667,
+						"value": 80.43,
+						"curve": [ 0.5, 80.43, 0.533, 45.15 ]
+					},
+					{
+						"time": 0.5667,
+						"value": 23.91,
+						"curve": [ 0.611, -4.39, 0.656, -37.49 ]
+					},
+					{ "time": 0.7, "value": -68.19 }
+				],
+				"translate": [
+					{
+						"curve": [ 0.078, 0, 0.156, -417.03, 0.078, 0, 0.156, 500.79 ]
+					},
+					{
+						"time": 0.2333,
+						"x": -494.13,
+						"y": 500.79,
+						"curve": [ 0.389, -648.33, 0.544, -627.3, 0.389, 500.79, 0.544, 208.59 ]
+					},
+					{ "time": 0.7, "x": -693.88, "y": 62.49 }
+				]
+			},
+			"target2": {
+				"translate": [
+					{},
+					{ "time": 0.3, "x": -157.28, "y": 217.55 },
+					{ "time": 0.4, "x": -215.56, "y": 129.93 },
+					{ "time": 0.5667, "x": -450.47, "y": -1057.28 }
+				]
+			},
+			"Core2": {
+				"rotate": [
+					{},
+					{ "time": 0.3, "value": -33.77 },
+					{ "time": 0.4667, "value": -84.29 },
+					{ "time": 0.7333, "value": -95.92 }
+				],
+				"translate": [
+					{},
+					{ "time": 0.3, "x": -2.32, "y": -2.32 },
+					{ "time": 0.4667, "x": -43, "y": 250.67 },
+					{ "time": 0.6, "x": -106.91, "y": 273.91 },
+					{ "time": 0.7333, "x": 18.88, "y": 281.74 }
+				]
+			},
+			"Head_Wing_Ctrl": {
+				"translate": [
+					{},
+					{ "time": 0.4333, "x": 637.74, "y": 760.28 },
+					{ "time": 0.5, "x": 1128.87, "y": 1270.3 },
+					{ "time": 0.6667, "x": 1040.27, "y": 1309.68 },
+					{ "time": 0.7667, "x": 1728.49, "y": 1128.31 },
+					{ "time": 0.9, "x": 1848.35, "y": 1141.62 }
+				]
+			}
+		}
+	},
+	"hit": {
+		"slots": {
+			"Macinegun_Flame_000": {
+				"attachment": [
+					{}
+				]
+			},
+			"머리 2p 표정2 2": {
+				"attachment": [
+					{ "name": "HEAD_HURT_POINT2" }
+				]
+			},
+			"아렛파츠": {
+				"attachment": [
+					{}
+				]
+			},
+			"윗파츠": {
+				"attachment": [
+					{}
+				]
+			},
+			"총열": {
+				"attachment": [
+					{}
+				]
+			}
+		},
+		"bones": {
+			"Core": {
+				"rotate": [
+					{ "time": 0.0667 },
+					{ "time": 0.1667, "value": 17.06 }
+				],
+				"translate": [
+					{},
+					{ "time": 0.1667, "x": 136.14, "y": 11.92 }
+				]
+			},
+			"L_Hand_IK": {
+				"translate": [
+					{},
+					{ "time": 0.1667, "x": 78.47, "y": 108.97 }
+				]
+			},
+			"Wing_Ctrl": {
+				"translate": [
+					{},
+					{ "time": 0.1667, "x": 140.56, "y": 59.79 }
+				]
+			},
+			"wc_3": {
+				"rotate": [
+					{},
+					{ "time": 0.1667, "value": -15.2 }
+				],
+				"translate": [
+					{},
+					{ "time": 0.1667, "x": -62.4, "y": 155.99 }
+				]
+			},
+			"Head_Wing_Ctrl": {
+				"translate": [
+					{},
+					{ "time": 0.1667, "x": -84.23, "y": 165.35 }
+				]
+			},
+			"target4": {
+				"translate": [
+					{},
+					{ "time": 0.1667, "x": -74.92, "y": 36.12 }
+				]
+			},
+			"target5": {
+				"translate": [
+					{},
+					{ "time": 0.1667, "x": -88.3, "y": 66.89 }
+				]
+			}
+		}
+	},
+	"idle": {
+		"slots": {
+			"Macinegun_Flame_000": {
+				"attachment": [
+					{}
+				]
+			},
+			"아렛파츠": {
+				"attachment": [
+					{}
+				]
+			},
+			"윗파츠": {
+				"attachment": [
+					{}
+				]
+			},
+			"총열": {
+				"attachment": [
+					{}
+				]
+			}
+		},
+		"bones": {
+			"Core": {
+				"translate": [
+					{},
+					{ "time": 0.6667, "y": 19.99 },
+					{ "time": 1.3333 }
+				]
+			},
+			"Head_Wing_Ctrl": {
+				"translate": [
+					{
+						"time": 0.1667,
+						"curve": [ 0.222, 0, 0.278, 0, 0.222, 0, 0.278, 32.83 ]
+					},
+					{ "time": 0.3333, "y": 32.83, "curve": "stepped" },
+					{
+						"time": 0.5,
+						"y": 32.83,
+						"curve": [ 0.544, 0, 0.589, 0, 0.544, 32.83, 0.589, 0 ]
+					},
+					{ "time": 0.6333, "curve": "stepped" },
+					{
+						"time": 0.8333,
+						"curve": [ 0.9, 0, 0.967, 0, 0.9, 0, 0.967, 32.83 ]
+					},
+					{ "time": 1.0333, "y": 32.83, "curve": "stepped" },
+					{
+						"time": 1.1667,
+						"y": 32.83,
+						"curve": [ 1.222, 0, 1.278, 0, 1.222, 32.83, 1.278, 0 ]
+					},
+					{ "time": 1.3333 }
+				]
+			},
+			"Wing_Ctrl": {
+				"translate": [
+					{
+						"time": 0.3333,
+						"curve": [ 0.444, 0, 0.556, 0, 0.444, 0, 0.556, -18.07 ]
+					},
+					{ "time": 0.6667, "y": -18.07, "curve": "stepped" },
+					{
+						"time": 1,
+						"y": -18.07,
+						"curve": [ 1.111, 0, 1.222, 0, 1.111, -18.07, 1.222, 0 ]
+					},
+					{ "time": 1.3333 }
+				]
+			},
+			"wc_3": {
+				"rotate": [
+					{
+						"curve": [ 0.111, 0, 0.222, -3.25 ]
+					},
+					{
+						"time": 0.3333,
+						"value": -3.25,
+						"curve": [ 0.444, -3.25, 0.556, -1.22 ]
+					},
+					{
+						"time": 0.6667,
+						"curve": [ 0.778, 1.22, 0.889, 4.04 ]
+					},
+					{
+						"time": 1,
+						"value": 4.04,
+						"curve": [ 1.111, 4.04, 1.222, 0 ]
+					},
+					{ "time": 1.3333 }
+				],
+				"translate": [
+					{
+						"curve": [ 0.111, 0, 0.222, 9.9, 0.111, 0, 0.222, 6.6 ]
+					},
+					{
+						"time": 0.3333,
+						"x": 9.9,
+						"y": 9.9,
+						"curve": [ 0.444, 9.9, 0.556, 4.4, 0.444, 13.21, 0.556, 19.81 ]
+					},
+					{
+						"time": 0.6667,
+						"y": 19.81,
+						"curve": [ 0.778, -4.4, 0.889, -16.51, 0.778, 19.81, 0.889, 14.86 ]
+					},
+					{
+						"time": 1,
+						"x": -16.51,
+						"y": 11.55,
+						"curve": [ 1.111, -16.51, 1.222, 0, 1.111, 8.25, 1.222, 0 ]
+					},
+					{ "time": 1.3333 }
+				]
+			},
+			"target5": {
+				"translate": [
+					{
+						"time": 0.1333,
+						"curve": [ 0.311, 0, 0.489, 0, 0.321, -4.86, 0.56, 8.04 ]
+					},
+					{
+						"time": 0.6667,
+						"y": 17.97,
+						"curve": [ 0.778, 0, 0.889, 0, 0.755, 15.89, 0.889, 12.34 ]
+					},
+					{
+						"time": 1,
+						"y": 10.46,
+						"curve": [ 1.111, 0, 1.222, 0, 1.112, 8.56, 1.221, 3.2 ]
+					},
+					{ "time": 1.3333 }
+				]
+			},
+			"target4": {
+				"translate": [
+					{ "y": 9.32, "curve": "stepped" },
+					{
+						"time": 0.2,
+						"y": 9.32,
+						"curve": [ 0.267, 0, 0.511, 0, 0.267, 9.32, 0.511, 32.41 ]
+					},
+					{ "time": 0.6667, "y": 32.41, "curve": "stepped" },
+					{
+						"time": 1,
+						"y": 32.41,
+						"curve": [ 1.111, 0, 1.222, 0, 1.111, 32.41, 1.222, 9.32 ]
+					},
+					{ "time": 1.3333, "y": 9.32 }
+				]
+			},
+			"Head": {
+				"rotate": [
+					{
+						"time": 0.6667,
+						"curve": [ 0.722, -1.51, 0.778, -4.53 ]
+					},
+					{
+						"time": 0.8333,
+						"value": -4.53,
+						"curve": [ 0.889, -4.53, 0.944, 0 ]
+					},
+					{ "time": 1 }
+				]
+			}
+		}
+	},
+	"machinegun_shot": {
+		"slots": {
+			"기관총 회전1": {
+				"attachment": [
+					{ "name": "기관총 회전1" },
+					{ "time": 0.0667, "name": "기관총 회전2" },
+					{ "time": 0.1333, "name": "기관총 회전1" },
+					{ "time": 0.2, "name": "기관총 회전2" },
+					{ "time": 0.2333, "name": "기관총 회전2" }
+				]
+			},
+			"머리 2p 표정2 2": {
+				"attachment": [
+					{ "name": "머리 1P 표정1 2" }
+				]
+			},
+			"총열": {
+				"attachment": [
+					{}
+				]
+			}
+		},
+		"bones": {
+			"R_Hand_Down_parts_Shot": {
+				"translate": [
+					{ "x": 10.16, "y": 22.59 }
+				]
+			},
+			"R_Hand_Up_parts_Shot": {
+				"translate": [
+					{ "x": 0.41, "y": -31.78 }
+				]
+			}
+		},
+		"attachments": {
+			"default": {
+				"Macinegun_Flame_000": {
+					"Macinegun_Flame_000": {
+						"sequence": [
+							{ "mode": "loop", "delay": 0.0167 }
+						]
+					}
+				}
+			}
+		}
+	},
+	"move": {
+		"slots": {
+			"Macinegun_Flame_000": {
+				"attachment": [
+					{}
+				]
+			},
+			"아렛파츠": {
+				"attachment": [
+					{}
+				]
+			},
+			"윗파츠": {
+				"attachment": [
+					{}
+				]
+			},
+			"총열": {
+				"attachment": [
+					{}
+				]
+			}
+		},
+		"bones": {
+			"Pelvis": {
+				"rotate": [
+					{ "value": 14.95 }
+				]
+			},
+			"Head": {
+				"rotate": [
+					{ "value": -18.83 }
+				]
+			},
+			"Wing_Ctrl": {
+				"rotate": [
+					{ "value": 14.27 }
+				]
+			},
+			"wc_3": {
+				"rotate": [
+					{ "value": 18.98 }
+				],
+				"translate": [
+					{ "x": 183.34, "y": 129.67 }
+				]
+			},
+			"Head_Wing_Ctrl": {
+				"translate": [
+					{ "x": 246.47, "y": 59.69 }
+				]
+			},
+			"target5": {
+				"translate": [
+					{ "x": 185.91, "y": 96.57, "curve": "stepped" },
+					{
+						"time": 0.1667,
+						"x": 185.91,
+						"y": 96.57,
+						"curve": [ 0.208, 185.91, 0.292, 197.82, 0.208, 96.57, 0.292, 114.99 ]
+					},
+					{ "time": 0.3333, "x": 197.82, "y": 114.99, "curve": "stepped" },
+					{
+						"time": 0.6667,
+						"x": 197.82,
+						"y": 114.99,
+						"curve": [ 0.704, 197.82, 0.796, 185.91, 0.704, 114.99, 0.796, 96.57 ]
+					},
+					{ "time": 0.8333, "x": 185.91, "y": 96.57 }
+				]
+			},
+			"target4": {
+				"translate": [
+					{ "x": 187.11, "y": 66.4, "curve": "stepped" },
+					{
+						"time": 0.1667,
+						"x": 187.11,
+						"y": 66.4,
+						"curve": [ 0.235, 187.11, 0.364, 199.03, 0.235, 66.4, 0.364, 84.81 ]
+					},
+					{
+						"time": 0.4326,
+						"x": 199.03,
+						"y": 84.81,
+						"curve": [ 0.488, 199.03, 0.544, 199.03, 0.488, 84.81, 0.544, 84.81 ]
+					},
+					{
+						"time": 0.5992,
+						"x": 199.03,
+						"y": 84.81,
+						"curve": [ 0.664, 199.03, 0.768, 187.11, 0.664, 84.81, 0.768, 66.4 ]
+					},
+					{ "time": 0.8326, "x": 187.11, "y": 66.4 }
+				]
+			},
+			"L_Hand_IK": {
+				"translate": [
+					{ "x": -23.86, "y": 49.63, "curve": "stepped" },
+					{
+						"time": 0.2333,
+						"x": -23.86,
+						"y": 49.63,
+						"curve": [ 0.267, -23.86, 0.3, -23.86, 0.267, 49.63, 0.3, 59.13 ]
+					},
+					{ "time": 0.3333, "x": -23.86, "y": 66.98, "curve": "stepped" },
+					{
+						"time": 0.6333,
+						"x": -23.86,
+						"y": 66.98,
+						"curve": [ 0.689, -23.86, 0.744, -23.86, 0.669, 57.72, 0.744, 49.63 ]
+					},
+					{ "time": 0.8, "x": -23.86, "y": 49.63 }
+				]
+			},
+			"Core": {
+				"translate": [
+					{
+						"curve": [ 0.111, 0, 0.222, 0, 0.111, 0, 0.222, 14.08 ]
+					},
+					{ "time": 0.3333, "y": 14.08, "curve": "stepped" },
+					{
+						"time": 0.5,
+						"y": 14.08,
+						"curve": [ 0.611, 0, 0.722, 0, 0.611, 14.08, 0.722, 0 ]
+					},
+					{ "time": 0.8333 }
+				]
+			},
+			"bone": {
+				"rotate": [
+					{
+						"curve": [ 0.105, 15.51, 0.172, 16.18 ]
+					},
+					{
+						"time": 0.2667,
+						"value": 14.76,
+						"curve": [ 0.417, -11.22, 0.851, -13.48 ]
+					},
+					{ "time": 1 }
+				]
+			}
+		}
+	},
+	"rifle_shot": {
+		"slots": {
+			"Flame": {
+				"attachment": [
+					{ "name": "Flame" }
+				]
+			},
+			"Macinegun_Flame_000": {
+				"attachment": [
+					{}
+				]
+			},
+			"머리 2p 표정2 2": {
+				"attachment": [
+					{ "name": "머리 1P 표정1 2" }
+				]
+			}
+		},
+		"bones": {
+			"Weapon": {
+				"scale": [
+					{
+						"x": 0.787,
+						"curve": [ 0.006, 0.983, 0.267, 1, 0.133, 1, 0.267, 1 ]
+					},
+					{ "time": 0.4 }
+				]
+			}
+		},
+		"attachments": {
+			"default": {
+				"Flame": {
+					"Flame": {
+						"sequence": [
+							{ "mode": "loop", "delay": 0.0833 }
+						]
+					}
+				}
+			}
+		}
+	}
+}
+}

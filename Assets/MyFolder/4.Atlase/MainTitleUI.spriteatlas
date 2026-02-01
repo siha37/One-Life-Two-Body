@@ -1,0 +1,104 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: MainTitleUI
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 0
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 2800000, guid: 08da0be8f14441a44b69ca52e8207bc1, type: 3}
+    - {fileID: 2800000, guid: 74f00768d528f514c98df60ec8aff87f, type: 3}
+    - {fileID: 2800000, guid: b375171166afecb4caafd429b5fc11ea, type: 3}
+    - {fileID: 2800000, guid: 79bb8b1ae1825564ea2611e18895f9ac, type: 3}
+    - {fileID: 2800000, guid: 27e604ef271db334f8ab09b810a2c3b4, type: 3}
+    - {fileID: 2800000, guid: f41dc34b43830d64bb23013d16890a23, type: 3}
+    - {fileID: 2800000, guid: b5bea54824c153e4db275debba2dc595, type: 3}
+    - {fileID: 2800000, guid: 35973ccb4fc28b547af86b7a8c56e199, type: 3}
+    - {fileID: 2800000, guid: c99bbe485dde99a4abf38d5dc890fa54, type: 3}
+    - {fileID: 2800000, guid: 04f9f725d3a53114c8db850cae453a64, type: 3}
+    - {fileID: 2800000, guid: 3176c7f82d1ccea4eafb39bb485191dc, type: 3}
+    - {fileID: 2800000, guid: 6a98075481262f54f9a743b2735c3397, type: 3}
+    - {fileID: 2800000, guid: 4c099f233cdcda94495be7a19a7079d2, type: 3}
+    - {fileID: 2800000, guid: 9b9f44482d9b8c749a22675d5e61e21b, type: 3}
+    - {fileID: 2800000, guid: b2c733d5da75b4e4ab8d70a41a697167, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+    packedSpriteRenderDataKeys:
+    - b375171166afecb4caafd429b5fc11ea: 21300000
+    - 4c099f233cdcda94495be7a19a7079d2: 21300000
+    - 6a98075481262f54f9a743b2735c3397: 21300000
+    - 04f9f725d3a53114c8db850cae453a64: 21300000
+    - b2c733d5da75b4e4ab8d70a41a697167: 21300000
+    - 9b9f44482d9b8c749a22675d5e61e21b: 21300000
+    - b5bea54824c153e4db275debba2dc595: 21300000
+    - c99bbe485dde99a4abf38d5dc890fa54: 21300000
+    - 74f00768d528f514c98df60ec8aff87f: 21300000
+    - 08da0be8f14441a44b69ca52e8207bc1: 21300000
+    - 3176c7f82d1ccea4eafb39bb485191dc: 21300000
+    - 79bb8b1ae1825564ea2611e18895f9ac: 21300000
+    - f41dc34b43830d64bb23013d16890a23: 21300000
+    - 35973ccb4fc28b547af86b7a8c56e199: 21300000
+    - 27e604ef271db334f8ab09b810a2c3b4: 21300000
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: b375171166afecb4caafd429b5fc11ea, type: 3}
+  - {fileID: 21300000, guid: 4c099f233cdcda94495be7a19a7079d2, type: 3}
+  - {fileID: 21300000, guid: 6a98075481262f54f9a743b2735c3397, type: 3}
+  - {fileID: 21300000, guid: 04f9f725d3a53114c8db850cae453a64, type: 3}
+  - {fileID: 21300000, guid: b2c733d5da75b4e4ab8d70a41a697167, type: 3}
+  - {fileID: 21300000, guid: 9b9f44482d9b8c749a22675d5e61e21b, type: 3}
+  - {fileID: 21300000, guid: b5bea54824c153e4db275debba2dc595, type: 3}
+  - {fileID: 21300000, guid: c99bbe485dde99a4abf38d5dc890fa54, type: 3}
+  - {fileID: 21300000, guid: 74f00768d528f514c98df60ec8aff87f, type: 3}
+  - {fileID: 21300000, guid: 08da0be8f14441a44b69ca52e8207bc1, type: 3}
+  - {fileID: 21300000, guid: 3176c7f82d1ccea4eafb39bb485191dc, type: 3}
+  - {fileID: 21300000, guid: 79bb8b1ae1825564ea2611e18895f9ac, type: 3}
+  - {fileID: 21300000, guid: f41dc34b43830d64bb23013d16890a23, type: 3}
+  - {fileID: 21300000, guid: 35973ccb4fc28b547af86b7a8c56e199, type: 3}
+  - {fileID: 21300000, guid: 27e604ef271db334f8ab09b810a2c3b4, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - craditbutton
+  - optionbuttonsursor
+  - exitbuttonsursor
+  - srartbuttonclick
+  - LOGO
+  - startbuttonsursor
+  - craditbuttonclick
+  - optionbuttonclick
+  - titlelogo
+  - menuframe
+  - craditbuttonsursor
+  - exitbutton
+  - startbutton
+  - exitbuttonclick
+  - optionbutton
+  m_RenderDataMap: {}
+  m_Tag: MainTitleUI
+  m_IsVariant: 0

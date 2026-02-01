@@ -1,0 +1,377 @@
+fileFormatVersion: 2
+guid: 509460e8195557041b9a03adeaf2929f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5091477274921867399
+    second: elite_laser_beam_326x248_0
+  - first:
+      213: 6226510686503929302
+    second: elite_laser_beam_326x248_1
+  - first:
+      213: -4437729362384289320
+    second: elite_laser_beam_326x248_2
+  - first:
+      213: 7199349056120844676
+    second: elite_laser_beam_326x248_3
+  - first:
+      213: 1716682180065138750
+    second: elite_laser_beam_326x248_4
+  - first:
+      213: 3805503505617771650
+    second: elite_laser_beam_326x248_5
+  - first:
+      213: -4548284673668599119
+    second: elite_laser_beam_326x248_6
+  - first:
+      213: -2239211284316510635
+    second: elite_laser_beam_326x248_7
+  - first:
+      213: 8471452824866703696
+    second: elite_laser_beam_326x248_8
+  - first:
+      213: 5353871526296635923
+    second: elite_laser_beam_326x248_9
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: elite_laser_beam_326x248_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 248
+        width: 326
+        height: 248
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78811b11b9f88a640800000000000000
+      internalID: 5091477274921867399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elite_laser_beam_326x248_1
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 248
+        width: 326
+        height: 248
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d58d3bda72096650800000000000000
+      internalID: 6226510686503929302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elite_laser_beam_326x248_2
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 248
+        width: 326
+        height: 248
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d183c138a40a62c0800000000000000
+      internalID: -4437729362384289320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elite_laser_beam_326x248_3
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 248
+        width: 326
+        height: 248
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 150, y: 90, z: 150, w: 90}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4817020a2d939e360800000000000000
+      internalID: 7199349056120844676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elite_laser_beam_326x248_4
+      rect:
+        serializedVersion: 2
+        x: 1304
+        y: 248
+        width: 326
+        height: 248
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 150, y: 90, z: 150, w: 90}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e38960fe851e2d710800000000000000
+      internalID: 1716682180065138750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elite_laser_beam_326x248_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 326
+        height: 248
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 150, y: 90, z: 150, w: 90}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28cd9d3a64ddfc430800000000000000
+      internalID: 3805503505617771650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elite_laser_beam_326x248_6
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 0
+        width: 326
+        height: 248
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 167, y: 90, z: 140, w: 90}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b231a8ef2f31e0c0800000000000000
+      internalID: -4548284673668599119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elite_laser_beam_326x248_7
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 0
+        width: 326
+        height: 248
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 176, y: 117, z: 107, w: 115}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 556a4456339bce0e0800000000000000
+      internalID: -2239211284316510635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elite_laser_beam_326x248_8
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 0
+        width: 326
+        height: 248
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 059c8a5e575a09570800000000000000
+      internalID: 8471452824866703696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elite_laser_beam_326x248_9
+      rect:
+        serializedVersion: 2
+        x: 1304
+        y: 0
+        width: 326
+        height: 248
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31a4df189c5cc4a40800000000000000
+      internalID: 5353871526296635923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      elite_laser_beam_326x248_0: 5091477274921867399
+      elite_laser_beam_326x248_1: 6226510686503929302
+      elite_laser_beam_326x248_2: -4437729362384289320
+      elite_laser_beam_326x248_3: 7199349056120844676
+      elite_laser_beam_326x248_4: 1716682180065138750
+      elite_laser_beam_326x248_5: 3805503505617771650
+      elite_laser_beam_326x248_6: -4548284673668599119
+      elite_laser_beam_326x248_7: -2239211284316510635
+      elite_laser_beam_326x248_8: 8471452824866703696
+      elite_laser_beam_326x248_9: 5353871526296635923
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

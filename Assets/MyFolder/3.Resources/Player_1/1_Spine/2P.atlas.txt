@@ -1,0 +1,84 @@
+2P.png
+size:1899,420
+filter:Linear,Linear
+pma:true
+가슴 2
+bounds:1510,16,157,195
+offsets:1,1,159,197
+rotate:90
+날개 오른 2
+bounds:1123,3,134,385
+offsets:1,1,136,387
+rotate:90
+날개 왼 2
+bounds:1123,3,134,385
+offsets:1,1,136,387
+rotate:90
+뚝배기 1 2
+bounds:212,137,281,222
+offsets:1,1,284,224
+rotate:90
+뚝배기 2 2
+bounds:436,137,281,222
+offsets:1,1,284,224
+rotate:90
+뚝배기 2 3
+bounds:1108,139,279,222
+offsets:3,1,284,224
+rotate:90
+뚝배기 2 4
+bounds:660,137,281,222
+offsets:2,2,284,224
+rotate:90
+뚝배기 2 5
+bounds:884,137,281,222
+offsets:2,2,284,224
+rotate:90
+몸통 2
+bounds:1707,137,137,180
+offsets:1,1,139,182
+rotate:90
+어깨갑 2
+bounds:774,2,133,180
+offsets:1,1,135,182
+rotate:90
+오른다리 2
+bounds:222,9,126,277
+offsets:1,1,128,279
+rotate:90
+오른발 2
+bounds:501,18,117,271
+offsets:1,1,119,273
+rotate:90
+오른상완
+bounds:113,14,66,107
+offsets:1,1,69,109
+rotate:90
+오른손
+bounds:1636,188,86,65
+offsets:1,1,88,67
+rotate:90
+오른팔
+bounds:1785,276,112,142
+offsets:6,3,121,146
+왼다리 2
+bounds:1491,276,142,292
+offsets:1,2,144,295
+rotate:90
+왼발 2
+bounds:1332,153,157,265
+offsets:2,1,160,267
+왼상완
+bounds:2,7,73,109
+offsets:1,1,75,111
+rotate:90
+왼팔
+bounds:1491,175,99,143
+offsets:1,1,101,145
+rotate:90
+주머니 2
+bounds:956,34,165,101
+offsets:1,1,167,103
+총 2
+bounds:2,82,208,336
+offsets:1,1,210,338

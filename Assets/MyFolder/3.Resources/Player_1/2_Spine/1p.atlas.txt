@@ -1,0 +1,119 @@
+1p.png
+size:2048,256
+filter:Linear,Linear
+pma:true
+scale:0.5
+Flame0
+bounds:0,27,229,133
+offsets:10,7,250,150
+rotate:90
+Flame1
+bounds:133,28,228,125
+offsets:10,16,250,150
+rotate:90
+Flame2
+bounds:258,53,203,108
+offsets:30,31,250,150
+rotate:90
+Flame3
+bounds:992,80,176,135
+offsets:46,10,250,150
+rotate:90
+Flame4
+bounds:1127,82,174,142
+offsets:52,5,250,150
+rotate:90
+HEAD_HURT1
+bounds:1627,33,93,104
+HEAD_HURT2
+bounds:1635,152,93,104
+HEAD_HURT3
+bounds:1720,48,93,104
+HEAD_HURT_POINT1
+bounds:1728,152,93,104
+HEAD_HURT_POINT2
+bounds:1813,48,93,104
+HEAD_HURT_POINT3
+bounds:1821,152,93,104
+Macinegun_Flame_0000
+bounds:1433,133,123,99
+offsets:69,24,250,150
+rotate:90
+Macinegun_Flame_0001
+bounds:1331,124,132,102
+offsets:61,26,250,150
+rotate:90
+Macinegun_Flame_0002
+bounds:1362,0,124,99
+offsets:68,21,250,150
+rotate:90
+Macinegun_Flame_0003
+bounds:1461,13,120,95
+offsets:66,28,250,150
+rotate:90
+Macinegun_Flame_0004
+bounds:1143,1,114,81
+offsets:77,38,250,150
+back_cover
+bounds:531,19,47,45
+offsets:5,9,57,62
+rotate:90
+가슴 3
+bounds:1257,4,78,105
+rotate:90
+기관총 회전1
+bounds:818,72,174,184
+offsets:8,0,182,188
+기관총 회전2
+bounds:586,70,160,186
+날개 오른쪽 작은 2
+bounds:1269,106,31,150
+날개 오른쪽 큰 2
+bounds:746,71,36,185
+날개 왼쪽 작은 2
+bounds:1300,106,31,150
+날개 왼쪽 큰 2
+bounds:782,71,36,185
+머리 1P 표정1 2
+bounds:1914,163,93,104
+rotate:90
+머리 2p 표정2 2
+bounds:1914,70,93,104
+rotate:90
+아렛파츠
+bounds:962,4,68,68
+오른다리 3
+bounds:258,4,49,136
+rotate:90
+오른머리파츠 2
+bounds:366,60,104,196
+오른발 3
+bounds:1556,24,40,113
+오른손 아래 2
+bounds:394,1,59,69
+rotate:90
+오른손 위 2
+bounds:889,4,68,73
+rotate:90
+오른팔 3
+bounds:463,3,34,57
+왼다리 3
+bounds:576,25,41,132
+rotate:90
+왼머리파츠 2
+bounds:470,66,116,190
+왼발 3
+bounds:1596,24,31,113
+왼손 3
+bounds:708,2,68,82
+rotate:90
+왼팔 3
+bounds:497,9,34,57
+윗파츠
+bounds:790,0,71,99
+rotate:90
+총열
+bounds:1532,137,103,119
+허리 2
+bounds:1030,0,80,113
+rotate:90
